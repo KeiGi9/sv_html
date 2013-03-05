@@ -1,0 +1,77 @@
+
+.big {
+  width: 100%;
+  min-height: 86px;
+  background:#000;
+  color:#939393;
+ /* border-bottom:1px solid #fff;*/
+}
+
+.small {
+  width: 90%;
+  margin: 5px auto;
+  overflow: hidden;
+}
+
+.text_mp{
+  font-family:"MyriadPro";
+}
+.text_s{
+  font-family:"SegoeWP";
+}
+
+.s-block {
+  float: left;
+  width: 32%;
+ /* margin: 0 2% 20px 0;*/
+  min-height: 200px;
+  background-color:rgba(0,0,0,0.5);
+  color:white;
+  font-size:20px;
+}
+
+/*
+.s-block:nth-child(3n+3){
+  margin: 0 0 20px 0;
+}
+*/
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadPro.eot");
+}
+ 
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadPro.ttf");
+}
+
+
+@font-face {
+  font-family: "SegoeWP";
+  src: url("../fonts/SegoeWP.eot");
+}
+ 
+@font-face {
+  font-family: "SegoeWP";
+  src: url("../fonts/SegoeWP.ttf");
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+
+    .s-block{
+      width: 48%;
+    }
+
+    .s-block:nth-child(odd){
+      margin: 0 2% 0 0;
+    }
+    }
+
+@media screen and (max-width: 400px) {
+    
+    .s-block{
+      width: 100%;
+    }
+
+    }    
